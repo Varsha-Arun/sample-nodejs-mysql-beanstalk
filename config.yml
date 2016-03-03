@@ -1,8 +1,13 @@
 branch-defaults:
   master:
-    environment: sample-nodejs-env
+    environment: samplenodejsbeanstalk
+    environment-id: e-6zhgtw6ay7
+    URL: samplenodejsbeanstalk.mcmvmdh9c3.us-east-1.elasticbeanstalk.com 
 global:
-  application_name: sample-nodejs
-  default_region: us-west-2
+  application_name: samplenodejs-beanstalk
+  default_platform: node.js
+  default_ec2_keyname: shippable-beta
+  default_region: us-east-1
   profile: eb-cli
   sc: git
+ 
