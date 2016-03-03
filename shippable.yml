@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - 0.10.25
 
+services:
+  - mysql
+  
 env:
   global:
     - XUNIT_FILE=shippable/testresults/result.xml
