@@ -8,7 +8,8 @@ env:
     - XUNIT_FILE=shippable/testresults/result.xml
     - RDS_HOSTNAME=127.0.0.1 RDS_USERNAME=shippable RDS_PASSWORD="" RDS_DB_NAME=test RDS_PORT=3306
     - AWSAccessKeyId=AKIAJJL2U6T3F3Y5JIGA
-    - secure: tD2cjFcQ6xqzxhBjqu2y8XIqyw5kbwd2IhhocYJYtHlBAxVATmL5VTaH8WlqKC5O5wzTujekVmhlJ5eNrmVa3kBqDxKd4Go+oELoM0crDBepSudRoVHd11ee+YRhsgCuj3tfXSR+bUJV9wBcvZBRcTwDs1Nz82zX45R3pQzMIQ0JbSTGIppXtonYCpw9yx1JUpMtOf6XwcXfnOyUKWGsE8Abj9AOZxQ0oGalEtdSbrBUIY8iwzV0j/VzijfZzRpAK23AvOZLVNlp0+JCK+5OFlSOgVn4KV9j6lFA4MpT4dBacYItXNOkLVpx5fxVfq+r6CE8YlQObv4V0nJWTf2wtw==
+    - secure: Xk7NIBtMZ9JMJfKQU47Hv5CVBDsxnPNMeCvLnI/MxYcCAhhhiCsXgf71Rfnjjht57KdPmwJh5pVAfyfbmuFCm4qp0Cjsx/j55ow8ik4cCbpFDI1+DuegTejelDJoaqcGpQENyL04krlz8CQM57APC1M1ggrtz7UZFGwG2hUlkOL1HDWM1jp19568DKhKZ9JnWTSZruAmQZXNvGClEO/uaPzm9BND5T5jFnNd2c8Coj1HMkfvU3e/bOR4y4C77/hjH/8KZtJb6AoP2htMTjfejtDdth1seFZBt/gNfuwaaxOdO9j28Ph7C+BO13e9gLIH+VaRsc1T3vZm48+VrekoFA==
+   # - secure: tD2cjFcQ6xqzxhBjqu2y8XIqyw5kbwd2IhhocYJYtHlBAxVATmL5VTaH8WlqKC5O5wzTujekVmhlJ5eNrmVa3kBqDxKd4Go+oELoM0crDBepSudRoVHd11ee+YRhsgCuj3tfXSR+bUJV9wBcvZBRcTwDs1Nz82zX45R3pQzMIQ0JbSTGIppXtonYCpw9yx1JUpMtOf6XwcXfnOyUKWGsE8Abj9AOZxQ0oGalEtdSbrBUIY8iwzV0j/VzijfZzRpAK23AvOZLVNlp0+JCK+5OFlSOgVn4KV9j6lFA4MpT4dBacYItXNOkLVpx5fxVfq+r6CE8YlQObv4V0nJWTf2wtw==
 
 before_install:
   - SUDO=$(which sudo) && $SUDO pip install awsebcli
