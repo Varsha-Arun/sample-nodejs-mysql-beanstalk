@@ -13,7 +13,7 @@
   "homepage": "https://github.com/Shippable/sample-nodejs-mysql-beanstalk",
   "dependencies": {
     "express": "~4.2.0",
-    "mysql": "~2.3.2",
+    "mysql": "~2.14.0.",
     "when": "~3.2.3"
   },
   "devDependencies": {
